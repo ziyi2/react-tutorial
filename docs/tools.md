@@ -197,3 +197,10 @@ You could follow the following workflow
 执行`npm run version`后可在本地项目生产的日志`CHANGELOG.md`。
 
 > 注意要使用正确的`type`，否则生成的日志会不准确。
+
+## 参考链接
+
+- [ESLint 官网](https://eslint.org/)
+- [Preitter 官网](https://prettier.io/)
+- [githooks](https://git-scm.com/docs/githooks)
+- [Cz 工具集使用介绍 - 规范 Git 提交说明](https://juejin.im/post/5cc4694a6fb9a03238106eb9)
