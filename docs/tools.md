@@ -102,7 +102,7 @@ npm install --save-dev husky lint-staged
 ```javascript
 {
   "*.js": [
-    "eslint src",
+    "eslint --fix",
     "git add"
   ]
 }

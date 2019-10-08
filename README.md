@@ -32,15 +32,9 @@ Create React App 的优势：
 - [在应用中加入提交代码的 ESLint 检查功能](https://github.com/ziyi2/react-tutorial/blob/master/docs/tools.md#%E5%9C%A8%E5%BA%94%E7%94%A8%E4%B8%AD%E5%8A%A0%E5%85%A5%E6%8F%90%E4%BA%A4%E4%BB%A3%E7%A0%81%E7%9A%84-eslint-%E6%A3%80%E6%9F%A5%E5%8A%9F%E8%83%BD)
 - [在应用中加入提交说明规范工具](https://github.com/ziyi2/react-tutorial/blob/master/docs/tools.md#%E5%9C%A8%E5%BA%94%E7%94%A8%E4%B8%AD%E5%8A%A0%E5%85%A5%E6%8F%90%E4%BA%A4%E8%AF%B4%E6%98%8E%E8%A7%84%E8%8C%83%E5%B7%A5%E5%85%B7)
 
-## 添加 Less
+## 样式设置
 
-> 如何添加 Sass 可以查看官方文档。
-
-Create React App 默认不支持 Less，可以通过 Webpack 配置使其支持，首先需要[暴露 Webpack 配置信息](https://www.html.cn/create-react-app/docs/available-scripts/#npm-run-eject)：
-
-```javascript
-npm run eject
-```
+- [添加 Less]()
 
 ## Ant Design of React
 
