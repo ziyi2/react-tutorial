@@ -1,6 +1,6 @@
 # 样式设置
 
-## 添加 Less
+## 支持 Less
 
 > 如何添加 Sass 可以查看 Create React App 的官方文档。
 
@@ -74,7 +74,7 @@ module.exports = function(webpackEnv) {
 };
 ```
 
-## 添加 Scoped Css
+## 支持 Scoped Css
 
 > 熟悉 Vue 的同学可能都知道在 Vue 中有[Scoped CSS](https://vue-loader.vuejs.org/zh/guide/scoped-css.html)功能，那么在 React 中也可以实现类似的功能。
 

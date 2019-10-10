@@ -4,9 +4,17 @@
 
 ## 创建应用程序
 
+Vue 的开发者一般都知道开发的标准工具[Vue CLI](https://cli.vuejs.org/zh/)，在 React 中也有类似的开发工具[Create React App](https://www.html.cn/create-react-app/docs/getting-started/)用于创建 React 应用：
+
 - [使用 Create React App 新建应用](https://github.com/ziyi2/react-tutorial/blob/master/docs/create.md)
 
-## 设置编辑器和应用
+## 设置编辑器
+
+在这里加入了一些推荐的 VS Code 插件和 VS Code 配置，从而提供开发效率：
+
+- [VS Code 设置](https://github.com/ziyi2/react-tutorial/blob/master/docs/setting.md)
+
+## 集成开发工具
 
 以前设计 Vue 脚手架时会在脚手架中集成一些提高开发效率的小工具（可以通过 Vue CLI 插件的形式集成），在 Create React App 中需要手动添加改善编辑器或者应用体验的这些工具：
 
@@ -17,8 +25,10 @@
 
 ## 样式设置
 
-- [添加 Less](https://github.com/ziyi2/react-tutorial/blob/master/docs/style.md#%E6%B7%BB%E5%8A%A0-less)
-- [添加 Scoped Css](https://github.com/ziyi2/react-tutorial/blob/master/docs/style.md#%E6%B7%BB%E5%8A%A0-scoped-css)
+在 React Create App 中支持类似于 Vue Scoped CSS 的样式设置：
+
+- [支持 Less](https://github.com/ziyi2/react-tutorial/blob/master/docs/style.md#%E6%B7%BB%E5%8A%A0-less)
+- [支持 Scoped Css](https://github.com/ziyi2/react-tutorial/blob/master/docs/style.md#%E6%B7%BB%E5%8A%A0-scoped-css)
 
 ## 组件引入
 
