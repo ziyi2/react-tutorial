@@ -35,10 +35,13 @@ Create React App 的优势：
 ## 样式设置
 
 - [添加 Less]()
+- [添加 Scoped Css]()
 
 ## Ant Design of React
 
-antd 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
+> [antd](https://ant.design/docs/react/introduce-cn) 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
+
+引入 antd 尝试使用组件库。
 
 ## 路由解决方案
 

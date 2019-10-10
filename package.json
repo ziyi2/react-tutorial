@@ -89,7 +89,9 @@
     "less": "^3.10.3",
     "less-loader": "^5.0.0",
     "lint-staged": "^9.2.5",
-    "prettier": "1.18.2"
+    "prettier": "1.18.2",
+    "styled-jsx": "^3.2.2",
+    "styled-jsx-plugin-less": "0.0.1-alpha.2"
   },
   "config": {
     "commitizen": {
@@ -153,6 +155,16 @@
   "babel": {
     "presets": [
       "react-app"
+    ],
+    "plugins": [
+      [
+        "styled-jsx/babel",
+        {
+          "plugins": [
+            "styled-jsx-plugin-less"
+          ]
+        }
+      ]
     ]
   },
   "eslintConfig": {

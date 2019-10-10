@@ -123,3 +123,5 @@ ReactDOM.render(
 
 - [react-router 官网](https://reacttraining.com/react-router/web/guides/quick-start)
 - [Code Splitting in Create React App](https://serverless-stack.com/chapters/code-splitting-in-create-react-app.html)
+- [[译] 关于 React Router 4 的一切](https://juejin.im/post/5995a2506fb9a0249975a1a4)
+- [React 路由鉴权](https://juejin.im/post/5d6352116fb9a06ae8361932)
