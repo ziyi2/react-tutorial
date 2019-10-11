@@ -80,6 +80,11 @@ module.exports = function(webpackEnv) {
 
 React 中的 CSS 解决方案有很多，例如[styled-components](https://github.com/styled-components/styled-components)、[Css Modules](https://github.com/css-modules/css-modules)(React Create App 已经支持)、[radium](https://github.com/FormidableLabs/radium)等（更多关于这些解决方案的使用可查看[React 拾遗：从 10 种现在流行的 CSS 解决方案谈谈我的最爱 （上）](https://juejin.im/post/5b39e63ae51d4562aa017c81)），但是对于 Vue 技术栈的同学而言可能都不是很熟悉，这里可以使用[styled-jsx](https://github.com/zeit/styled-jsx)实现类似 Vue 的 Scoped CSS 功能。
 
+> 选择一种CSS解决方案还是要慎重考虑，这里和Vue不同，Vue很多事情已经为我们考虑好，而React的周边可能需要很多其他的生态去支持。例如CSS解决方案中是否对语法高亮以及自动提示有良好的支持等，。
+
+- 优点：和 Vue 相比可以动态修改样式
+- 缺点：默认没有语法高亮和语法提示
+
 ### 安装使用
 
 安装 `styled-jsx`
@@ -157,7 +162,7 @@ const Button = props => (
 npm install --save-dev styled-jsx-plugin-less@alpha
 ```
 
-配置 Babel：
+配置 `package.json` 中的 Babel：
 
 ```javascript
 {
@@ -173,6 +178,38 @@ npm install --save-dev styled-jsx-plugin-less@alpha
     ]
 }
 ```
+
+如果想要支持 SASS 预处理器，可通过[`styled-jsx-plugin-sass`](https://github.com/giuseppeg/styled-jsx-plugin-sass)插件实现：
+
+```javascript
+// 使Create React App支持SASS预处理器
+npm i node-sass -D
+npm i styled-jsx-plugin-sass -D
+```
+
+配置 `package.json` 中的 Babel：
+
+```javascript
+{
+  "plugins": [
+      [
+        "styled-jsx/babel",
+        {
+          "plugins": [
+            "styled-jsx-plugin-sass"
+          ]
+        }
+      ]
+    ]
+}
+```
+
+### 通过VS Code支持语法高亮和自动提示
+
+- 高亮插件：[vscode-styled-jsx](https://marketplace.visualstudio.com/items?itemName=blanu.vscode-styled-jsx)
+- 自动提示插件：[styled-jsx Language Server](https://marketplace.visualstudio.com/items?itemName=AndrewRazumovsky.vscode-styled-jsx-languageserver)
+
+> 这里有个不是很舒服的地方，就是对预处理器的自动提示支持不是很友好，例如Less预处理器的语法自动提示（你可以使用CSS自动提示代替，但是嵌套的元素可能无法做自动提示处理）。选择一种CSS方案还是要慎重考虑。
 
 ## 参考链接
 

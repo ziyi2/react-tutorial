@@ -25,7 +25,7 @@ Vue 的开发者一般都知道开发的标准工具[Vue CLI](https://cli.vuejs.
 
 ## 样式设置
 
-在 React Create App 中支持类似于 Vue Scoped CSS 的样式设置：
+在 React Create App 中支持预处理器和类似于 Vue Scoped CSS 功能的样式设置：
 
 - [支持 Less](https://github.com/ziyi2/react-tutorial/blob/master/docs/style.md#%E6%B7%BB%E5%8A%A0-less)
 - [支持 Scoped Css](https://github.com/ziyi2/react-tutorial/blob/master/docs/style.md#%E6%B7%BB%E5%8A%A0-scoped-css)
@@ -33,6 +33,8 @@ Vue 的开发者一般都知道开发的标准工具[Vue CLI](https://cli.vuejs.
 ## 组件引入
 
 > [antd](https://ant.design/docs/react/introduce-cn) 是基于 Ant Design 设计体系的 React UI 组件库，主要用于研发企业级中后台产品。
+
+这里引入antd组件来快速设计应用样式。
 
 ## 路由解决方案
 
@@ -53,6 +55,10 @@ Vue 的路由解决方案[`vue-router`](https://github.com/vuejs/vue-router)可�
 ## React 调试工具
 
 ## React Redux
+
+## 中台前端/设计解决方案
+
+- [ANT DESIGN PRO](https://pro.ant.design/index-cn)
 
 ## React Awesome
 
