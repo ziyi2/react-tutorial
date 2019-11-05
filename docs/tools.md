@@ -174,10 +174,10 @@ module.exports = {
 
 ### 根据 Angular 规范的提交说明生成开发日志
 
-使用[cz](https://github.com/commitizen/cz-cli)工具集配套[conventional-changelog](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog)可以快速生成开发日志：
+使用[cz](https://github.com/commitizen/cz-cli)工具集配套[conventional-changelog-cli](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli)可以快速生成开发日志：
 
 ```javascript
-npm install conventional-changelog --save-dev
+npm install -g conventional-changelog-cli
 ```
 
 在`pacage.json`中加入生成日志命令：
